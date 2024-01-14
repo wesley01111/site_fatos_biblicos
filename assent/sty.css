@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 163, 88);
+}
+img{
+   
+    width: 300px;
+    background-attachment: fixed;
+}
+hgroup{position: absolute;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.menu ul{
+list-style: none;
+text-transform: uppercase ;
+position:absolute;
+top: -20px;
+left: 600px;
+
+}
+
+.menu li{
+    display: inline-block;
+    background-color: #b37b44;
+    padding: 5px;
+    margin: 1px;
+    transition: .5s;
+}
+
+.menu li:hover{
+    background-color: #c0bbbb;
+}
+
+.menu a{
+   text-decoration: none;
+   color: black;
+}
+
+
+.rodape {
+font-size: 9pt;
+clear: both;
+border-top: 1px solid #606060;
+}
+
+.rodape p{
+text-align: center;
+}
