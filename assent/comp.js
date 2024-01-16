@@ -20,6 +20,7 @@ class myTeg extends HTMLElement {
         const title = document.createElement ("a");
         title.textContent = this.getAttribute("title");
         title.href = this.getAttribute("link");
+        title.target = this.getAttribute ("blank");
 
         const noticia = document.createElement ("p");
         noticia.textContent = this.getAttribute ("noticia");
@@ -67,7 +68,7 @@ class myTeg extends HTMLElement {
             margin-top: 10px;
          }
          .card {
-            width: 800px;
+            width: 900px;
             display: flex;
             flex-direction:row;  
          }
@@ -75,7 +76,7 @@ class myTeg extends HTMLElement {
             display:flex;
             flex-direction: column;
             justify-content: center;
-            margin-left: 8px;
+            margin-left: 20px;
          }
         
         `

@@ -1,14 +1,26 @@
 body{
-    background-color: rgb(255, 163, 88);
+    background-color: rgb(73, 73, 73);
 }
 img{
    
     width: 300px;
     background-attachment: fixed;
 }
-hgroup{position: absolute;
-    margin-top: 10px;
-    margin-left: 350px;
+hgroup{
+    
+    margin-top: -150px;
+    margin-left: 280px;
+   
+}
+.cabecalho{
+    border-bottom: 1px solid #606060;
+    
+
+}
+
+.sessoes{
+   
+    background-color:#00465e;
 }
 
 .menu ul{
@@ -16,13 +28,13 @@ list-style: none;
 text-transform: uppercase ;
 position:absolute;
 top: -20px;
-left: 600px;
+left: 800px;
 
 }
 
 .menu li{
     display: inline-block;
-    background-color: #b37b44;
+    background-color: #8e9192;
     padding: 5px;
     margin: 1px;
     transition: .5s;
@@ -46,4 +58,12 @@ border-top: 1px solid #606060;
 
 .rodape p{
 text-align: center;
+}
+.bmsg {
+    background-color: #87898a;
+}
+.botao{
+    display: flex;
+    width: 90px;
+    border-left: 200px;
 }
