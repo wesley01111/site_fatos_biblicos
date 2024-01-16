@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FATOS BÍBLICOS</title>
     <link rel="stylesheet" href="sty.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+TAS+Beginner&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,6 +17,8 @@
             <h2>Mensagens, curiosidades e muito mais!</h2>
         </hgroup>
         
+        <img class="luz" src="E:\projetosdev\site_fatos_biblicos\photos\luzes.png" alt="luzes">
+        
         <div class="menu">
             
             <ul>
@@ -23,35 +27,33 @@
                 <li><a href="https://www.youtube.com/@canalfatosbiblicos" target="_blank">YouTube</a> </li>
                 
                 <li ><a href="sugestoes.html">Sugestões</a> </li>
-                <li >
-                    <form action="/search" method="get">
-                        <label for="search">Pesquisar:</label>
-                        <input type="text" id="search" name="q" placeholder="Digite sua pesquisa...">
-                        <button type="submit">Buscar</button>
-                    </form></li>
+                
+                    
             </ul>
         </div>  
     </header>
-    <div class="form">
-        <fieldset class="msg">
-            <legend> sugestões de conteudo</legend>
+    <section class="sessoes">
+        <div class="form">
+            <fieldset class="msg">
+                <legend> <h2> sugestões de conteudo</h2></legend>
+                
+                <p> <textarea  name="amsg" class="texto" cols="50" rows="5" placeholder= "Digite aqui..." ></textarea>  </p>
+
+                <input type="image" class="botao" src="E:\projetosdev\site_fatos_biblicos\photos\enviar.png">
+
+            </fieldset>
+
+            <footer class="rodape">
+
+                <p> Copyright &copy; 2024 - by <a href="https://github.com/wesley01111" target = "blank">Wesley Lima</a> <br/>
+                <a href="https://www.youtube.com/@canalfatosbiblicos" target="blank"> YouTube </a>| <a href="https://www.instagram.com/fato_sbiblicos/" target="blank">Instagram</a></p>
+
+                
+            </footer>
+
             
-            <p> <textarea  name="amsg" class="bmsg" cols="50" rows="5" placeholder="Digite aqui..." ></textarea>  </p>
-
-            <input type="image" class="botao" src="E:\projetosdev\site_fatos_biblicos\photos\enviar.png">
-
-        </fieldset>
-
-        <footer class="rodape">
-
-            <p> Copyright &copy; 2024 - by <a href="https://github.com/wesley01111" target = "blank">Wesley Lima</a> <br/>
-            <a href="https://www.youtube.com/@canalfatosbiblicos" target="blank"> YouTube </a>| <a href="https://www.instagram.com/fato_sbiblicos/" target="blank">Instagram</a></p>
-
-            
-        </footer>
-
-        
-    </div>
+        </div>
+    </section>
 </body>
 </html>
 

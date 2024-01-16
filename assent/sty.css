@@ -1,21 +1,30 @@
+
+*{
+    font-family: 'Edu TAS Beginner', cursive;
+}
 body{
     background-color: rgb(73, 73, 73);
 }
-img{
-   
-    width: 300px;
-    background-attachment: fixed;
-}
-hgroup{
-    
-    margin-top: -150px;
-    margin-left: 280px;
-   
-}
+
 .cabecalho{
     border-bottom: 1px solid #606060;
-    
+    display: flex;
+    flex-direction: row;
+}
 
+img{
+    width: 300px;
+    margin-top: -30px;
+}
+
+hgroup{
+    margin-top: 0px;
+    display:block;
+}
+
+
+.luz{
+    margin-left: -130px;
 }
 
 .sessoes{
@@ -59,8 +68,9 @@ border-top: 1px solid #606060;
 .rodape p{
 text-align: center;
 }
-.bmsg {
-    background-color: #87898a;
+
+.texto {
+    background-color: #ffffff5d;
 }
 .botao{
     display: flex;

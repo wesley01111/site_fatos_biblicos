@@ -64,7 +64,7 @@ class myTeg extends HTMLElement {
             
          }
          p {
-            color: rgba(105, 105, 104, 0.699);
+            color: gray;
             margin-top: 10px;
          }
          .card {
